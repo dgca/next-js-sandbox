@@ -6,7 +6,7 @@ export default function Layout({ children, title = "Sandbox" }) {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.children}>{children}</div>
